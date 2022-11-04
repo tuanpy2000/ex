@@ -1,0 +1,37 @@
+.container-list {
+  display: grid;
+  column-gap: 16px;
+  row-gap: 16px;
+  grid-template-columns: auto auto auto;
+}
+.item {
+  flex-direction: row;
+  align-items: center;
+  padding: 6px 8px;
+  gap: 8px;
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0px 7px 32px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+}
+.item-num {
+  width: 20px;
+  height: 20px;
+  background: #bbcffb;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 11px;
+  color: #004dff;
+  font-weight: 500;
+}
+.item-word {
+  font-family: "Clear Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #04004d;
+}
