@@ -1,2 +1,2 @@
-run json server
-npm start
+1-run json server
+2-npm start
